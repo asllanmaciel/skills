@@ -4,9 +4,13 @@ Azure SDK patterns and best practices for .NET developers. Covers 29 skills span
 
 ## Install
 
+Install an individual skill with the skills CLI:
+
 ```bash
-npx skills add microsoft/skills --skill azure-sdk-dotnet
+npx skills add https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-dotnet/skills/azure-ai-projects-dotnet
 ```
+
+Or install the full plugin:
 
 ```
 /plugin install azure-sdk-dotnet@skills

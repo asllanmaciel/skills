@@ -4,9 +4,13 @@ Azure SDK patterns and best practices for Java developers. Covers 26 skills span
 
 ## Install
 
+Install an individual skill with the skills CLI:
+
 ```bash
-npx skills add microsoft/skills --skill azure-sdk-java
+npx skills add https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-java/skills/azure-ai-projects-java
 ```
+
+Or install the full plugin:
 
 ```
 /plugin install azure-sdk-java@skills

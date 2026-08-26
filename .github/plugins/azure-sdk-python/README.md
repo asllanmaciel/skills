@@ -4,9 +4,13 @@ Azure SDK patterns and best practices for Python developers. Covers 39 skills sp
 
 ## Install
 
+Install an individual skill with the skills CLI:
+
 ```bash
-npx skills add microsoft/skills --skill azure-sdk-python
+npx skills add https://github.com/microsoft/skills/tree/main/.github/plugins/azure-sdk-python/skills/azure-ai-projects-py
 ```
+
+Or install the full plugin:
 
 ```
 /plugin install azure-sdk-python@skills
